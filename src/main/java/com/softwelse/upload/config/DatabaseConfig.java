@@ -16,6 +16,7 @@ public class DatabaseConfig {
 		}
 	}
 
+	
 	public static String getDbUrl() {
 		return properties.getProperty("db.url") + properties.getProperty("db.database");
 	}

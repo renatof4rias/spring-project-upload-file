@@ -18,6 +18,7 @@ public class PropertiesConfig {
 		}
 	}
 
+	
 	public static List<String> getAllowedExtension() {
 		return Arrays.asList(properties.getProperty("file.upload.extension.allowed").split(","));
 	}
