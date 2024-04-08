@@ -27,6 +27,7 @@ public class FileUtil {
 
 				logs.add(log);
 			}
+			
 
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
