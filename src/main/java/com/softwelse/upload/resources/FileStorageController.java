@@ -53,4 +53,5 @@ public class FileStorageController {
 			return ResponseEntity.ok(fileUploadService.insertLog(log));
 		}
 	}
+	
 }
