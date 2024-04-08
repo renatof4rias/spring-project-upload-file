@@ -59,4 +59,5 @@ public class Log {
 	public void setUserAgent(String userAgent) {
 		this.userAgent = userAgent;
 	}
+	
 }
