@@ -7,5 +7,4 @@ public class IllegalExtensionFileException extends RuntimeException {
 	public IllegalExtensionFileException(String message) {
 		super(message);
 	}
-
 }

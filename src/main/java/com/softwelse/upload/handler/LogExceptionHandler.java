@@ -15,6 +15,7 @@ public class LogExceptionHandler {
 	public ResponseEntity<Object> handle(EmptyFileException e) {
 		return ResponseEntity.badRequest().body(e.getMessage());
 	}
+	
 
 	@ExceptionHandler(IllegalExtensionFileException.class)
 	public ResponseEntity<Object> handle(IllegalExtensionFileException e) {

@@ -6,5 +6,4 @@ public class EmptyLogException extends RuntimeException {
 	public EmptyLogException(String message) {
 		super(message);
 	}
-
 }
