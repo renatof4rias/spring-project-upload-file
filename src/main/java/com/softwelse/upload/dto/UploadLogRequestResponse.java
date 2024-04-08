@@ -9,6 +9,7 @@ public class UploadLogRequestResponse {
 	public Long getQtdErrorsLine() {
 		return qtdErrorsLine;
 	}
+	
 	public void setQtdErrorsLine(Long qtdErrorsLine) {
 		this.qtdErrorsLine = qtdErrorsLine;
 	}
