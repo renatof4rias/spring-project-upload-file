@@ -51,7 +51,6 @@ public class FileUploadService {
 	}
 
 	private void validarLog(Log log) {
-//		if (log.getData() == null && log.getData().isEmpty()) {
 		if (StringUtils.hasText(log.getData())) {
 			throw new EmptyLogException("Preencha a Data");
 		}
