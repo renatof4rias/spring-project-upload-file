@@ -8,7 +8,7 @@
 ## Descrição do projeto 
 
 <p align="justify">
-Upload é uma aplicação backend de uma API REST.
+Projeto Freelancer de uma aplicação backend de uma API REST.
 
 Aplicação consiste em um sistema que faz a leitura de arquivos com a extensão em .txt e .log e faz a inserção de logs em massa no banco de dados.
 
